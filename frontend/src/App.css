@@ -1,0 +1,67 @@
+nav{
+  width: 100%;
+  height: auto;
+  padding: 1rem 4%;
+  display: flex;
+  justify-content: space-between;
+
+  a{
+    text-decoration: none;
+    color: black;
+
+    h2{
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+  }
+
+  ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+}
+
+.main-table{
+  width: 100%;
+  height: auto;
+  padding: 1rem 4%;
+  .table{
+    width: 100%;
+    border: 1px solid black;
+    tr{
+      width: 100%;
+      border: 1px solid black;
+      th{
+        border: 1px solid black;
+        padding: .4rem;
+      }
+      td{
+        border: 1px solid black;
+        text-align: center;
+        padding: .4rem;
+      }
+      .action{
+        display: flex;
+        gap: .5rem;
+        justify-content: center;
+
+        .edit{
+          cursor: pointer;
+          background-color: yellow;
+          font-size: 2rem;
+          padding: .3rem;
+          
+        }
+        .delete{
+          cursor: pointer;
+          font-size: 2rem;
+          padding: .3rem;
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
